@@ -14,5 +14,5 @@
   - name: build docker-compose
     command: docker-compose up -d 
 
-  - name: push image to dockerhub
-    command: docker push housseinyn/nodejs-app_my-app01
+ # - name: push image to dockerhub
+  #  command: docker push housseinyn/nodejs-app_my-app01
