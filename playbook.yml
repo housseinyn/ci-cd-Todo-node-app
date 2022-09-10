@@ -11,14 +11,14 @@
     ignore_errors: yes
 # Make sure to change the image name with your personal dockerhub account and reposiroty   
   - name: remove used image
-    command: docker rmi triple3a/nodejs-app
+    command: docker rmi housseinyn/nodejs-app_my-app01
     ignore_errors: yes
 # Make sure to change the image name with your personal dockerhub account and reposiroty 
   - name: build docker image from dockerfile
-    command: docker build -t triple3a/nodejs-app .  
+    command: docker build -t housseinyn/nodejs-app_my-app01 .  
 # Make sure to change the image name with your personal dockerhub account and reposiroty 
   - name: push image to dockerhub
-    command: docker push triple3a/nodjs-app 
+    command: docker push housseinyn/nodejs-app_my-app01
 
 
 
